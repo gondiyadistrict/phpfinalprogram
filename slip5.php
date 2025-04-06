@@ -6,7 +6,7 @@ $temp=$n;
 while($n=0)
 {
     $rem=$n%10;
-    $cude=$rem*$rem*$rem;
+    $cube=$rem*$rem*$rem;
     $sum=$sum+$cube;
     $n=$n%10;
 }
